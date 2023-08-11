@@ -1,0 +1,16 @@
+data:
+  
+  raw_data: "../data/raw/data.xlsx"
+  cleaned_data: "../data/cleaned/cleaned_data.csv"
+
+# General settings
+project_name: "Parler Analysis Project"
+raw_data: "../data/raw/all_posts.csv"
+cleaned_data: "..data/cleaned/cleaned_data.csv"
+
+# Clustering settings
+clustering_algorithm: "Mini-Batch K-Means"
+num_clusters: 10
+
+# LDA settings
+num_topics: 10
